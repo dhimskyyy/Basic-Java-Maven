@@ -36,8 +36,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: |
         mvn sonar:sonar \
-          -Dsonar.projectKey=akuazizz_Basic-Java-Maven \
-          -Dsonar.organization=akuazizz \
+          -Dsonar.projectKey=dhimskyyy_Basic-Java-Maven \
+          -Dsonar.organization=dhimas-afrizal \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=${{ secrets.SONAR_TOKEN }} \
           -Dsonar.pullrequest.key=${{ github.event.pull_request.number }} \
